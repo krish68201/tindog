@@ -1,0 +1,139 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5em;
+    line-height: 1.5;
+    color: white;
+    font-weight: bold;
+}
+h3{
+    font-family: "montserrat-bold";
+   
+    text-align: center;
+    padding-top: 4%;
+    font-size: 3rem;
+}
+h2{
+    font-size: 3rem;
+    font-family: "montserrat-bold";
+}
+p{
+    color: grey;
+}
+.navbar{
+    padding: 0 0 2.5rem;
+}
+.container-fluid{
+    padding: 3% 15% 2%;
+}
+a{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navitem{
+    padding: 0px 18px;
+}
+.navlink{
+    font-size: 2.5rem;
+    font-family: 'Montserrat-light', sans-serif;
+}
+.btn{
+    margin: 5% 3% 5% 0%;
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.title{
+    width: 50%;
+    transform: rotate(25deg);
+   position: absolute;
+   right: 30%;
+
+
+}
+
+.featurebox{
+    text-align: center;
+    padding: 5%;
+
+}
+.icon{
+    color:#ef8175 ;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+
+}
+#testimonials{
+     padding: 7% 15%;
+     text-align: center;
+     background-color: #ff4c68;
+     color: white;
+}
+.testinomials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.presslogo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+
+}
+.button-footer{
+    position: relative;
+    left: 40%;
+}
+#cta{
+    background-color: #ff4c68;
+}
+#footer{
+    padding-left: 50%;
+}
+.copyright{
+    padding: 2%;
+}
+.footer-icon{
+    padding: 2%;
+}
+.last{
+    color: white;
+}
+@media (max-width:1028px ){
+    #title{
+        text-align: center;
+    }
+
+    .title{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
